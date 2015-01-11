@@ -10,14 +10,16 @@ titlepage=false,							% Extra Titelseite?
 draft=false								% Entwurfsmodus?
 ]{scrartcl}
 
-%\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}  % hiermit ohne Rand für Bindung
-\usepackage[top=2.5cm, bottom=2cm, left=3cm, right=2cm]{geometry}  % hiermit mit Rand für Bindung
+
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}  % hiermit ohne Rand für Bindung
+%\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=2cm]{geometry}  % hiermit mit Rand für Bindung
 %\usepackage{fullpage}
 \usepackage{layout}							% für \layout{} → Darstellung der aktuellen Ränder und Co.
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}					% für echte Umlaute und mehr…
 \usepackage{lmodern}						% schönere Schrift, v.a in PDFs
+\renewcommand{\familydefault}{\sfdefault}
 \usepackage[ngerman]{babel}					% deutsche Sprachvariante (Inhaltsverzeichnis, …)
 
 \usepackage{varioref}
@@ -126,12 +128,12 @@ ref=long								% Verweise ausgeschrieben, z.B. »§ 314 Absatz 2 Satz 2« (Stan
 
 \title{Rechtliche Grundlagen und Rahmenbedingungen für die neue Studierendenvertretung}
 
-\subtitle{Für die StuVe der Uni Ulm sowie allgemein\\für die Verfasste Studierendenschaft in BadenWürttemberg}
+\subtitle{Für die StuVe der Uni Ulm\thanks{\href{mailto:stuve.kontakt@uni-ulm.de}{stuve.kontakt@uni-ulm.de}}~ sowie allgemein\\für die Verfasste Studierendenschaft in Baden-Württemberg}
 
-\author{Simon Lüke\thanks{\href{mailto:simon.lueke@uni-ulm.de}{simon.lueke@uni-ulm.de}}, Barbara Körner}
+\author{Simon Lüke, Barbara Körner}
 
-\date{\texttt{version02} vom \today}
 
+\date{\texttt{version03}, Inhaltlicher Stand vom 27. November 2013\\Zuletzt kompiliert am \today}
 
 \maketitle
 \thispagestyle{empty}
@@ -152,7 +154,7 @@ ref=long								% Verweise ausgeschrieben, z.B. »§ 314 Absatz 2 Satz 2« (Stan
 \newpage
 \thispagestyle{empty}
 
-\section*{Abkürzungen}
+\section*{Abkürzungen (an der Uni Ulm)}
 
 %TODO Liste alphabetisch sortieren oder gleich ein entsprechendes Paket für Abkürzungen benutzen.
 
@@ -167,7 +169,7 @@ ref=long								% Verweise ausgeschrieben, z.B. »§ 314 Absatz 2 Satz 2« (Stan
 	\item OS: OrganisationsSatzung
 	\item StEx: StudierendenExekutive
 	\item StuPa: StudierendenParlament
-	\item StuVe: StudierendenVertretung, die Ulmer Abkürzung für die „Gesamtheit der Verfassten Studierendenschaft der Universität Ulm“, fasst also alle alle Organe und Ebenen der Vertretung der Studierendenschaft zusammen; schönerweise war das Ulmer \href{https://de.wikipedia.org/wiki/Unabh\%C3\%A4ngige_Studierendenschaft}{U-Modell} auch schon so benannt.
+	\item StuVe: StudierendenVertretung, Ulmer Bezeichnung für die Gesamtheit aller Organe, Ebenen, Aktiven der Verfassten Studierendenschaft; schönerweise war das Ulmer \href{https://de.wikipedia.org/wiki/Unabh\%C3\%A4ngige_Studierendenschaft}{U-Modell} auch schon so benannt.
 	\item Uni: Universität, Hochschulform
 	\item VerfStudG: Verfasste-Studierendenschafts-Gesetz
 	\item VS: Verfasste Studierendenschaft
@@ -195,11 +197,11 @@ ref=long								% Verweise ausgeschrieben, z.B. »§ 314 Absatz 2 Satz 2« (Stan
 %\setcounter{section}{-1}
 \section*{Gesetze, Satzungen und Ordnungen – viel Text für die Verfasste Studierendenschaft}
 
-Im Tagesgeschäft müssen durch die Ausführenden meist sehr detaillierte oder ab und an auch stark improvisierte Lösungen gefunden werden. Bei der Gestaltung und weiteren Ausgestaltung der Grundlagen für diese eigentliche Arbeit ist es aber sicherlich lohnenswert prinzipiell und weitergehend zu denken. Dementsprechend zahlt es sich auch aus einen Blick auf das zu werfen, was schon vorgedacht wurde oder bereits konkret festgelegt ist. Die gesetzlichen Grundlagen, auf denen die Verfasste Studierendenschaft fußt, muss man sich dafür meist mit einigem Aufwand zusammensuchen\footnote{Außerdem sollen sollen die aktiven Studierenden, ja auch ihrer eigentlichen Hauptaufgabe – nämlich ihrem eigenen Studium – nachgehen.}. Aus diesem Grund wurde hier versucht, die wichtigsten Gesetzestexte für den „Gebrauch“ in den Gremien und Arbeitsgruppen zusammenzustellen, so dass nicht jeder selbst diesen Aufwand treiben muss. Außerdem sind die Paragraphen für den Laien oft nicht einfach verständlich weshalb hier zusätzlich der Versuch unternommen wurde die wichtigsten Punkte zusammenzufassen und etwas zu erläutern.
+Im Tagesgeschäft müssen durch die Ausführenden meist sehr detaillierte oder ab und an auch stark improvisierte Lösungen gefunden werden. Bei der Gestaltung und weiteren Ausgestaltung der Grundlagen für diese eigentliche Arbeit ist es aber sicherlich lohnenswert prinzipiell und weitergehend zu denken. Dementsprechend zahlt es sich auch aus einen Blick auf das zu werfen, was schon vorgedacht wurde oder bereits konkret festgelegt ist. Die gesetzlichen Grundlagen, auf denen die Verfasste Studierendenschaft fußt, muss man sich dafür meist mit einigem Aufwand zusammensuchen\footnote{Außerdem sollen sollen die aktiven Studierenden, ja auch ihrer eigentlichen Hauptaufgabe – nämlich ihrem eigenen Studium – nachgehen.}. Aus diesem Grund wurde hier versucht, die wichtigsten Gesetzestexte für den Gebrauch in den Gremien und Arbeitsgruppen zusammenzustellen, so dass nicht jeder selbst diesen Aufwand treiben muss. Außerdem sind die Paragraphen für den Laien oft nicht einfach verständlich weshalb hier zusätzlich der Versuch unternommen wurde die wichtigsten Punkte zusammenzufassen und etwas zu erläutern.
 
 Natürlich kann das geschriebene Recht in vielen Fällen „verbogen“ werden und man kann manchmal mehr und manchmal weniger weit vom genauen Wortlaut abweichen, vorhandene Spielräume ausreizen. Gleichzeitig bestehen aber viele deutliche Vorgaben des Gesetzgebers und davon abgesehen lohnt sich sicher der Versuch, die ursprünglichen Intentionen der Verfasser nachzuvollziehen. Irgendwas werden „die“ sich ja schon auch gedacht haben ;-) Neben der Nachhaltigkeit kann man durch gut gefasste, ausgestaltende Regeln auch auf eine größere Rechtssicherheit hoffen. Dabei sollte man aber auch nicht versuchen ständig in “worst case”-Szenarien zu denken, um möglichst alle Eventualitäten zu regeln\footnote{Dies lohnt sich bei den meisten Angelegenheiten schon allein deshalb nicht, weil erfahrungsgemäß im Voraus gar nicht an alle Möglichkeiten gedacht werden kann.}. Letztendlich wird es immer eine einzelne Person oder eine kleine Gruppe geben, die Dinge in die Tat umsetzt und dabei den eigenen, hoffentlich gesunden Menschenverstand nutzen muss.
 
-Dieses Dossier enthält daher vor allem die für das Thema Verfasste Studierendenschaft und den Übergang in diese neue Form relevanten Abschnitte aus den entsprechenden Gesetzen. Daneben gibt es in der Art eines Glossars ein paar Erläuterungen, die beim Verständnis dieser Texte helfen können und den Autoren wichtig erscheinende Punkte aus den eher unübersichtlichen Gesetzestexten zusammenfassen. Allerdings ist nicht beabsichtigt alle Aspekte zu beleuchten, sondern mehr die Fragen zu notieren, die sich bisher stellten. Diese Erläuterungen sowie die Zusammenstellung der Texte wurde von juristischen Laien erstellt und auch wenn wir uns Mühe gegeben haben, kann natürlich nicht für Richtigkeit und schon gar nicht für Vollständigkeit garantiert werden.
+Dieses Dossier enthält daher vor allem die für das Thema Verfasste Studierendenschaft und den Übergang in diese neue Form relevanten Abschnitte aus den entsprechenden Gesetzen. Daneben gibt es in der Art eines Glossars ein paar Erläuterungen, die beim Verständnis dieser Texte helfen können und den Autoren wichtig erscheinende Punkte aus den eher unübersichtlichen Gesetzestexten zusammenfassen. Allerdings ist nicht beabsichtigt alle Aspekte zu beleuchten, sondern mehr die Fragen zu notieren, die sich bisher stellten – inklusive der soweit gefundenen Antworten. Diese Erläuterungen sowie die Zusammenstellung der Texte wurde \textbf{von juristischen Laien erstellt} und auch wenn wir uns Mühe gegeben haben, kann natürlich nicht für Richtigkeit und schon gar nicht für Vollständigkeit garantiert werden.
 
 Nach dem vorangestellten Abkürzungsverzeichnis und der „ToDo-Liste“, also zuerst ein Überblick über die drei relevanten Gesetze: dem \textbf{Verfasste-Studierendenschafts-Gesetz}, das seinerseits das \textbf{Gesetz über die Errichtung der Verfassten Studierendenschaft} enthält und dem \textbf{Landeshochschulgesetz (LHG)}. Als viertes Regelwerk ist für Ulm die schon abgestimmte \textbf{Organisationssatzung der Studierendenschaft} zu nennen, die bereits mit Erläuterungen veröffentlicht ist (Link unten). Darauf folgt zum schnellen Nachschlagen der \textbf{Glossar} mit Erläuterungen und abschließend die \textbf{Gesetzestexte im Wortlaut}.
 
@@ -219,6 +221,7 @@ Die insgesamt 12 Artikel dieses Gesetzes stellen zum Teil wiederum eigenständig
 	\item Voller Titel: Gesetz zur Einführung einer Verfassten Studierendenschaft und zur Stärkung der akademischen Weiterbildung
 	\item \sloppy \url{http://mwk.baden-wuerttemberg.de/fileadmin/pdf/hochschulen/Verfasste-Studierendenschaft/GBl-2012_457.pdf}
 	\item Veröffentlicht im Gesetzesblatt BaWü Nr. 11/2012 vom 13. Juli 2012.
+	\item Gesetzesentwurf (inkl. Zielsetzung, Begründung, Anhörungsergebnisse) in der Drucksache des Landtags 15 / 1600 vom 24.04.2012, siehe \url{http://www.landtag-bw.de/Dokumente}
 \end{itemize}
 
 Das Gesetz ist in mehrere Artikel gegliedert, zur Übersicht hier eine kurze Zusammenfassung (kein Anspruch auf Vollständigkeit/Korrektheit):
@@ -282,9 +285,13 @@ Ist durch die Urabstimmung Anfang 2013 und die darauf folgende rechtliche Genehm
 
 Als solche ist die VS in LHG § 65 und VerfStudG Art. 1 definiert; außerdem als „rechtsfähige Körperschaft des öffentlichen Rechts“, siehe also auch unter diesen Begriffen.
 
-Der Begriff Gliedkörperschaft ist leider nicht sehr klar definiert. Er ist wohl synonym zu Teilkörperschaft, was aber auch keine klarere Definition bringt oder gar den Zweck dieses Begriffs – z.B. im Ggs. zu Körperschaft alleine – erläutert. Auch der Rechtsabteilung der Uni Ulm ist dieser Begriff nicht klar. Eine mögliche Umschreibung könnte man so fassen: „man gehört dazu, aber eben nicht so ganz, oder vielleicht auch umgekehrt“. Evtl. gibt es eine steuerrechtliche Relevanz, dazu wurde bereits eine Anfrage beim Finanzamt angestoßen.
+Es ist nicht klar, was der Gesetzgeber mit der Definition als „Gliedkörperschaft der Hochschule“ bezwecken wollte, denn es lassen sich direkt keine praktischen Konsequenzen zur Definition des rechtlichen Verhältnisses zwischen Hochschule und VS ableiten. Eine mögliche Umschreibung könnte man so fassen: „man gehört dazu, aber eben nicht so ganz, oder vielleicht auch umgekehrt“. Es bleibt also wohl nichts anderes übrig, als sich auf konkrete genannte Punkte (Rechtsaufsicht, Überlassung von Räumen etc.) zu beziehen und das Verhältnis HS ./.~VS mit der Zeit vor Ort auszudefinieren. Evtl. gibt es eine steuerrechtliche Relevanz, dazu wurde bereits eine Anfrage beim Finanzamt angestoßen.
 
-Der Begriff Gliedkörperschaft oder Teilkörperschaft wird sonst wohl nur für Unikliniken und medizinische Fakultäten genutzt. Diese Referenz passt aber nicht ganz, es gibt dabei etwas andere Formulierungen. Eine Quelle dafür gibt es in \emph{Das Hamburger Modell der Gliedkörperschaft}, Prof. Dr. Dr. U. Koch-Gromus, Dekan der Medizinischen Fakultät der Universität Hamburg, \url{http://www.mft-online.de/files/seite_107.pdf}.
+Die Gesetzesbegründung lässt evtl. auf die Intention hinter der Formulierung schließen: „Die Qualifizierung als Gliedkörperschaft bringt zum Ausdruck, dass sie in der Trägerschaft der jeweiligen Hochschule – und nicht unmittelbar des Landes – steht. Sie unterliegt Bindungen gegenüber ihrer Hochschule jedoch nur insoweit, als dieses Gesetz solche vorsieht. So ordnet das Gesetz beispielsweise Genehmigungs- und Zustimmungsvorbehalte der jeweiligen Hochschule zu; ferner wird der Hochschule auch die Rechtsaufsicht über ihre Studierendenschaft übertragen.“ \textit{(Landtag BW Drucksache 15 / 1600, Seite 32)}.
+
+Der Begriff Gliedkörperschaft ist damit nicht positiv definiert, sondern es gibt nur die Abgrenzung, dass der Träger nicht das Land sondern die Hochschule ist. Gliedkörperschaft ist wohl synonym zu Teilkörperschaft, das Synonym bringt aber auch keine klarere Definition oder einen Zweck der Fomulierung jenseits der Abgrenzung mit sich. Der Begriff Gliedkörperschaft oder Teilkörperschaft wird sonst wohl nur für Unikliniken und medizinische Fakultäten genutzt. Diese Referenz passt aber nicht ganz, es gibt dabei etwas andere Formulierungen. Eine Referenz auf diesen Aspekt findet sich in \emph{Das Hamburger Modell der Gliedkörperschaft}, Prof. Dr. Dr. U. Koch-Gromus, Dekan der Medizinischen Fakultät der Universität Hamburg, \url{http://www.mft-online.de/files/seite_107.pdf}.
+
+Auch der Rechtsabteilung der Uni Ulm ist ein wirklicher Sinn hinter der Verwendung dieses Begriffes bzw. welche praktischen Konsequenzen daraus im Bezug auf Verhältnis von Hochschule und VS abzuleiten sind nicht klar.
 
 
 
@@ -316,13 +323,15 @@ Beiträge sind nicht dasselbe wie Gebühren! Beiträge werden dafür bezahlt, da
 
 
 
-\paragraph{nicht-Benachteiligung}
+\paragraph{nicht-Benachteiligung}\label{Glossar: nicht-Benachteiligung}
 
-… ist in LHG § 9 (7) Satz 2 mit deutlichen Worten geregelt: „Die Mitglieder dürfen wegen ihrer Tätigkeit in der Selbstverwaltung nicht benachteiligt werden.“ Die jeweils konkrete Umsetzung dürfte aber nicht einfach oder eindeutig sein. Sie gilt erstmal für Mitarbeit in den Gremien der akademischen Selbstverwaltung. Für die Mitarbeit in den Organen der Studierendenschaft wird dann in LHG § 65 (7) auch auf genau diesen Satz verwiesen. Das Verbot von Benachteiligung gilt also auch für die Mitgliedschaft in den Organen der VS. Außerdem wird dort auch auf LHG § 34 (4) verwiesen: „Eine Tätigkeit als gewähltes Mitglied in gesetzlich vorgesehenen Gremien oder satzungsmäßigen Organen der Hochschule oder des Studentenwerks während mindestens eines Jahres kann bis zu einem Studienjahr bei der Berechnung der Prüfungsfristen unberücksichtigt bleiben; die Entscheidung darüber trifft der Vorstandsvorsitzende.“
+… ist in LHG § 9 (7) Satz 2 mit deutlichen Worten geregelt: „Die Mitglieder dürfen wegen ihrer Tätigkeit in der Selbstverwaltung nicht benachteiligt werden.“ Die jeweils konkrete Umsetzung dürfte aber nicht einfach oder eindeutig sein. Sie gilt erstmal für Mitarbeit in den Gremien der akademischen Selbstverwaltung. Für die Mitarbeit in den Organen der Studierendenschaft wird dann in LHG § 65 (7) auch auf genau diesen Satz verwiesen. Das Verbot von Benachteiligung gilt also auch für die Mitgliedschaft in den Organen der VS. Außerdem wird dort auch auf LHG § 32 (6) verwiesen: „Eine Tätigkeit als gewähltes Mitglied in gesetzlich vorgesehenen Gremien oder satzungsmäßigen Organen der Hochschule oder des Studierendenwerks während mindestens eines Jahres kann bei der Berechnung der Prüfungsfristen bis zu einem Studienjahr unberücksichtigt bleiben; die Entscheidung darüber trifft die Rektorin oder der Rektor.“
 
-Spannend ist also die Frage, wie umgesetzt wird, dass keinem sich in den Gremien engagierenden Mitglieder daraus ein Nachteil entsteht. Für Einzelfälle könnte man ableiten, dass z.B. immer ein Ersatztermin oder eine andere vertretbare Möglichkeit zum Ersatz angeboten werden muss, wenn eine Pflichtveranstaltung mit einer Gremiensitzung kollidiert oder dass man auf Grund von zu vielen Fehlterminen eben nicht Durchfallen darf. Je nachdem wie sehr man sich streiten will, kann man sich auf den Standpunkt stellen, dass die Uni sich sogar um die Organisation der Ersatzmöglichkeit kümmern muss. Erstmal sollte man sich aber einfach mit dem zuständigen Dozenten in Verbindung setzen und gemeinsam nach einer Lösung suchen und dabei dann notfalls auch auf dieses Recht hinweisen. (Noch weiter gesponnen: auch wenn es sich nicht um einen Pflichttermin handelt, man aber begründen kann, dass ein Versäumen des Termins von Nachteil ist, „dürfte“ das auch nicht sein.)
+Spannend ist also die Frage, wie umgesetzt wird, dass keinem sich in den Gremien engagierenden Mitglieder daraus ein Nachteil entsteht. Für Einzelfälle könnte man ableiten, dass z.B. immer ein Ersatztermin oder eine andere vertretbare Möglichkeit zum Ersatz angeboten werden muss, wenn eine Pflichtveranstaltung mit einer Gremiensitzung kollidiert oder dass man auf Grund von zu vielen Fehlterminen eben nicht Durchfallen darf. Je nachdem wie sehr man sich streiten will, kann man sich auf den Standpunkt stellen, dass die Uni sich sogar um die Organisation der Ersatzmöglichkeit kümmern muss. Erstmal sollte man sich aber sicher immer einfach direkt mit dem zuständigen Dozenten in Verbindung setzen und gemeinsam nach einer Lösung suchen und dabei notfalls auf diesen Rechtsanspruch hinweisen. (Noch weiter gesponnen: auch wenn es sich nicht um einen Pflichttermin handelt, man aber begründen kann, dass ein Versäumen des Termins von Nachteil ist, „dürfte“ das auch nicht sein.)
 
-Ob solche evtl. ständigen Einzelfallösungen praktikabel sind, ist sicher fraglich – z.B. gerade bei den vielen Pflichtveranstaltungen im Medizinstudium mit wenigen Fehlterminen. Darum gibt's wohl auch LHG § 34 (4), der vorsieht, dass man Fristen aus den Prüfungsordnungen erhöhen kann. Man kann vermuten, dass das als pauschaler Ausgleich gedacht ist.
+Ob solche evtl. ständigen Einzelfallösungen praktikabel sind, ist sicher fraglich – z.B. gerade bei den vielen Pflichtveranstaltungen im Medizinstudium mit wenigen Fehlterminen. Darum gibt's wohl auch LHG § 32 (6), der vorsieht, dass man Fristen aus den Prüfungsordnungen erhöhen kann. Man kann vermuten, dass das als pauschaler Ausgleich gedacht ist.
+
+Siehe auch \nameref{Glossar: Ehrenamt}.
 
 
 
@@ -334,17 +343,17 @@ Ob solche evtl. ständigen Einzelfallösungen praktikabel sind, ist sicher fragl
 Die Organisation der VS, wird hauptsächlich in LHG § 65 a (3) vorgegeben:
 \begin{itemize}
 	\item „Die Organisation der Studierendenschaft muss wesentlichen demokratischen Grundsätzen entsprechen.“
-	\item \emph{Kollegialorgan} \textit{\%TODO}
 	\item \emph{legislatives Organ} \textit{\%TODO}
 	\item \emph{exekutives Organ} \textit{\%TODO}
 	\item \emph{Zentrale Ebene} bedeutet hierbei hochschulweite oder gesamtuniversitäre Ebene, beispiele sind StuPa, FSR und StEx oder Senat und Präsidium. Im Gegensatz dazu sind die Fakultäten oder Fächer, also die FSen oder die Fakultätsräte und Studienkommissionen, nicht gemeint.
+	\item \emph{Kollegialorgan}: die Mitglieder des Organs nehmen die entsprechenden Aufgaben gemeinsam Wahr, im Ggs. zu einem „Einzelorgan“ in dem nur Person die Arbeit macht.
 \end{itemize}
 
 
 
 \paragraph{Vorsitz}
 
-Die Vorsitzende der Studierendenschaft darf für diese und somit im Namen aller Studierenden, „sprechen“, ist also ein wesentliches Element der Repräsentation. Sie\footnote{wiederum generisches Femininum} hat auch sonst eine gewisse Sonderrolle, siehe z.B. \emph{Beauftragte/r für den Haushalt}, eine Stelle die der Vorsitzenden direkt unterstellt ist.
+Die Vorsitzende des exekutiven Organs „[vertritt] die Studierendenschaft im Außenverhältnis […]“ \textit{(Landtag BW Drucksache 15 / 1600, Seite 35)}. Sie kann somit auch als „Vorsitzende der Studierendenschaft“ bezeichnet werden, da sie für diese und somit im Namen aller Studierenden, „sprechen“ darf, ist also ein wesentliches Element der Repräsentation Sie\footnote{wiederum generisches Femininum} hat auch sonst eine gewisse Sonderrolle, siehe z.B. \emph{Beauftragte/r für den Haushalt}, eine Stelle die der Vorsitzenden direkt unterstellt ist.
 
 Es ist evtl. sinnvoll eine Stellvertretung zu wählen. Die §§ 2 und 3 des Gesetzes über die Errichtung der Verfassten Studierendenschaft, die die Konstituierung im besonderen Fall regeln, sehen z.B. einen gewählten Stellvertreter vor. Es ist auch möglich, zwei Vorsitzende zu wählen, die dann gemeinschaftlich vertreten. Dies muss aber in der OS vorgesehen sein, was in Ulm aktuell nicht der Fall ist.
 
@@ -356,27 +365,26 @@ Die VS kann (als Organisation oder eben Körperschaft) direkt Träger von Rechte
 
 
 
-\paragraph{Wahlen}
+\paragraph{Wahlen}\label{Glossar: Wahlen}
 
-Es muss ordentlich und natürlich heutigen demokratischen Standards entsprechend gewählt werden. LHG § 9 (8) findet Anwendung, d.h. Wahlen finden in der Regel nach den Grundsätzen der Verhältniswahl statt, sie müssen demokratischen Grundsätzen entsprechen, also vor allem frei, gleich und geheim sein.
+Es muss ordentlich und natürlich heutigen demokratischen Standards entsprechend gewählt werden. LHG § 9 (8) findet Anwendung, d.h. Wahlen finden in der Regel nach den Grundsätzen der Verhältniswahl statt, sie müssen demokratischen Grundsätzen entsprechen, also vor allem frei, gleich und geheim sein. Es muss eine Wahlordnung (WO) geben. Dazu gibt es für die VS speziell in LHG § 65 a (2) und (3) ein paar Vorgaben: die Wahlen sollen gleichzeitig mit denen für die studentischen Senatsmitglieder stattfinden, die Wahlperiode soll ein Jahr betragen. Die WO muss auch festlegen, für welche Organe wie viele Mitglieder zu wählen sind.
 
-Es muss eine Wahlordnung (WO) geben. Dazu gibt es für die VS speziell in LHG § 65 a (2) und (3) ein paar Vorgaben: die Wahlen sollen gleichzeitig mit denen für die studentischen Senatsmitglieder stattfinden, die Wahlperiode soll ein Jahr betragen. Die WO muss auch festlgen, für welche Organe wie viele Mitglieder zu wählen sind.
+In bestimmten Fällen kann in der Studierendenschaft im Ggs. zum grundsätzlichen Verbot \textit{(LHG § 9 (8) Satz 3, vgl. auch Landtag BW Drucksache 15 / 1600, Seite 35)} auch \textbf{in Vollversammlungen gewählt werden}. Außerdem ist mit dem genannten Satz die \textbf{„Bildung von Wahlkreisen“ verboten}. D.h.~für Wahlen dürfen die Studierenden nur auf der Ebene der Fakultäten und nicht in kleineren darunter liegenden „Wahlkreisen“ zusammengefasst werden. Siehe hierzu auch \nameref{Glossar: Fachschaft, FachbereichsVertretung, FS}.
 
 
 
 \paragraph{Landesweite Studierendenvertretung}
 
-… auch LaStuVe. Sie muss nach der Konstituierung aller VSen der Hochschulen gebildet werden (Gesetz über die Errichtung der Verfassten Studierendenschaft § 4). LHG § 65 a (7) regelt weiteres, v.a. muss für diese auch eine GO abgestimmt werden, die z.B. regelt, wie die Landesebene durch die Studierendenschaften finanziert wird.
+… auch LaStuVe. Sie muss nach der Konstituierung aller VSen der Hochschulen gebildet werden \textit{(Gesetz über die Errichtung der Verfassten Studierendenschaft § 4)}. LHG § 65 a (8) regelt weiteres, v.a.~muss für diese auch eine GO abgestimmt werden, die z.B. regelt, wie die Landesebene durch die Studierendenschaften finanziert wird.
 
 
-\paragraph{Konstituierung der VS}
 
-Die neue StuVe, also die Uni Ulmer VS, ist dann vollständig konstituiert, „wenn sich das letzte Organ auf zentraler Ebene der Studierendenschaft konstituiert hat.“ Für Ulm ist dieses letzte Organ die StEx, die sich nach StuPa und FSR konstituieren muss. (Gesetz über die Errichtung der Verfassten Studierendenschaft § 1 (5))
+\paragraph{Konstituierung}
 
-Zur Erstmaligen Konstituierung: ist die die VS nicht bis zum 31.12.2013 konstituiert, gibt es im Gesetz über die Errichtung der Verfassten Studierendenschaft in den §§ 2 und 3 Regelungen für diesen „besonderen Fall“. Diese enthalten Vorschriften für die Organe (StuPa, AStA, Vorsitz, …) und sehen vor, dass der Hochschulvorstand sofort Wahlen dafür durchführt. Interessant ist damit, was wäre, wenn eigentlich alles schon fast fertig ist, wie im November 2013 in Ulm, sich die StEx aber bis zum Jahresende noch nicht zusammengesetzt hat, das vielleicht erst irgendwann im Januar oder Februar tun will. Gibt es dann zwei konkurrierende gewählte Parlamente? Wohl kaum. Wird die urabgestimmte OS mit der Konstituierung im besonderen Fall wieder hinfällig, also quasi alles zurück auf Null gesetzt? Wäre hart, viel Mühe umsonst.\\
-Dies scheint ein typisches Beispiel dafür zu sein, dass der Gesetzgeber seine Vorgaben nicht unbedingt abschließend durchdenkt. Nicht nur, dass hier eine unklare Situation aufkommen kann, sondern auch im Zusammenspiel mit anderen Regelungen, z.B. der Auflösung des alten AStA und damit den Übergangsregelungen, gibt es anscheinend keinen klaren, rechtssicheren Weg.
+Unter Konstituierung versteht man das (erstmalige) Zusammenkommen eines neuen Gremiums und damit den jeweils ersten Arbeitsschritt eines Gremiums. Dieser wird dadurch abgeschlossen, dass das Gremium arbeitsfähig wird (z.B.~indem es einen Vorsitzenden wählt und dieser die Leitung übernimmt). Die Konstituierung wird meist „von außen“ angestoßen (bspw.~ durch ein anderes Organ); wurde ein Gremium korrekt gewählt können sich seine Mitglieder aber auch selbst organisieren um sich zu konstituieren.
 
-Siehe auch \emph{Übergang zur VS}.
+Zur erstmaligen Konstituierung der VS: Die neue StuVe, also die Uni Ulmer VS, ist dann vollständig konstituiert, „wenn sich das letzte Organ auf zentraler Ebene der Studierendenschaft konstituiert hat.“ Für Ulm ist dieses letzte Organ die StEx, die sich nach StuPa und FSR konstituieren muss. (Gesetz über die Errichtung der Verfassten Studierendenschaft § 1 (5)). Dies musste bis zum 31.12.2013 geschehen sein, da sonst die Regelungen für diesen „besonderen Fall“ in Kraft treten würden (VerfStudG Art. 3 §§ 2 und 3). Siehe hierzu auch \emph{Übergang zur VS}.
+
 
 
 \paragraph{Übergang zur VS}
@@ -391,62 +399,83 @@ Siehe auch \emph{Konstituierung der VS}.
 
 \paragraph{Zuständigkeiten\label{Glossar:Zuständigkeiten}}
 
-„[Die Studierendenschaft] hat unbeschadet der Zuständigkeit der Hochschule und des Studentenwerks die folgenden Aufgaben […]“ (LHG § 65 (2)).
+„[Die Studierendenschaft] hat unbeschadet der Zuständigkeit der Hochschule und des Studentenwerks die folgenden Aufgaben […]“ \textit{(LHG § 65 (2))}.
 
-Diese Einleitung soll vermutlich ausdrücken, dass finanzielle Investitionen der Hochschule – etwa für langfristig gebundenes Personal, Leasing- oder Mietverträge etc. – „geschützt“ sind, also durch Aktivitäten der VS nicht geschädigt (also z.B. untergraben werden) dürfen. Evtl. ist daraus auch abzuleiten, dass es nicht zu viel Kompetenzgerangel geben soll. Dazu passend regelt LHG § 65 (5) dann auch, dass die Hochschule selbst sowie das Studentenwerk ganz bestimmte „Vorrechte“ oder „Vorrang“ haben: es wird definiert, wie man sich abstimmen muss, wenn die Studierendenschaft Aufgaben übernehmen möchte, die eigentlich zum Studentenwerk gehören oder wenn sie Sportangebote im großen Stil anbieten möchte.
+Diese Einleitung soll vermutlich ausdrücken, dass finanzielle Investitionen der Hochschule – etwa für langfristig gebundenes Personal, Leasing- oder Mietverträge etc. – „geschützt“ sind, also durch Aktivitäten der VS nicht geschädigt (also z.B.~untergraben) werden dürfen. Evtl.~ist daraus auch abzuleiten, dass es nicht zu viel Kompetenzgerangel geben soll. Dazu passend regelt LHG § 65 (5) dann auch, dass die Hochschule selbst sowie das Studentenwerk ganz bestimmte „Vorrechte“ oder „Vorrang“ haben: es wird definiert, wie man sich abstimmen muss, wenn die Studierendenschaft Aufgaben übernehmen möchte, die eigentlich zum Studentenwerk gehören oder wenn sie Sportangebote im großen Stil anbieten möchte.
 
-\emph{Siehe auch Aufgaben.}
+\emph{Siehe auch \nameref{Glossar: Aufgaben}.}
 
 
-\paragraph{Aufgaben}
+
+\paragraph{Aufgaben}\label{Glossar: Aufgaben}
 
 … hat die VS sehr viele. Sie sollen nicht alle hier aufgezählt werden, weil dies den Rahmen einfach sprengen würde und dabei dann trotzdem ein wohl sehr unvollständiges Bild ergeben würde. Die Aufgaben sind LHG § 65 (2) und auch (3) definiert, die Aufzählung ist wohl abschließend gemeint, d.h. alles was die VS „tut“, also z.B. wofür sie Stellung bezieht oder Geld ausgibt, muss dort untergebracht werden können. Die Punkte wurden weitgehendst in der Ulmer OS wiederholt oder es wurde auf die entsprechenden Stellen des LHG verwiesen.
 
 \textit{\%TODO: Schaut man sich die Liste an, sieht man… pol. Bildung, Mitwirkung, Gesellschaft (innen/Uni und außen), …! Die eigentliche Lehre und die Verwaltung des Studiums ist ganz klar Aufgabe der Professoren und der Hochschule: die Einflussnahme darauf ist Aufgabe der Studierendenschaft, aber nicht Teile davon zu übernehmen.}
 
-Besonders interessant für eine StudierendenVertretung ist natürlich auch die \textbf{Mitwirkung an den „Aufgaben der Hochschule“}, wozu auf die LHG §§ 2 – 7 verwiesen wird. Dies aber eben „unbeschadet der Zuständigkeit der Hoschule“(LHG § 65 (2) und \emph{\nameref{Glossar:Zuständigkeiten}}), d.h. an diesen Punkten gibt es ein natürliches Spannungsfeld. Die akademische und studentische Selbstverwaltung sind nämlich weitgehend sauber getrennt, es gibt formal nur ein paar festgesetzte Schnittstellen:
+Besonders interessant für eine StudierendenVertretung ist natürlich auch die „Mitwirkung an den »Aufgaben der Hochschule«“, wozu auf LHG §§ 2 - 7 verwiesen wird. Dies aber eben „unbeschadet der Zuständigkeit der Hochschule“ \textit{(LHG § 65 (2) und \emph{\nameref{Glossar:Zuständigkeiten}})}, d.h. an diesen Punkten gibt es ein natürliches Spannungsfeld. Die akademische und studentische Selbstverwaltung sind nämlich weitgehend sauber getrennt, es gibt ein paar rechtlich festgesetzte Schnittstellen:
 \begin{itemize}
-	\item Um nicht nur über die getrennt gewählten studentischen Vertreter in den Organen der akademischen Selbstverwaltung Einwirkung zu ermöglichen ist vorgesehen, dass die VS „Anträge an die zuständigen Kollegialorgane der Hochschule zu stellen“, diese müssen sich mit diesen befassen (LHG § 65 a (6)). 
-	\item Außerdem können die entsprechenden Organe der VS jeweils ein ständiger Vertreter in den Senat und jeden Fakultätsrat benennen, die oder der dort eine beratende Stimme hat. Genau so können z.B. die studentischen Senatsmitglieder oder Fakultätsräte qua Amt Mandate in der VS bekommen.
+	\item Die VS kann\textbf{ „Anträge an die zuständigen Kollegialorgane der Hochschule […] stellen“}, diese müssen sich mit den Anträgen befassen \textit{(LHG § 65 a (6))}. Es existiert also nicht nur die Möglichkeit über die getrennt gewählten studentischen Vertreter in den Organen der akademischen Selbstverwaltung Einfluss zu nehmen.
+	\item Außerdem können die entsprechenden Organe der VS jeweils ein \textbf{ständiger Vertreter in den Senat und jeden Fakultätsrat} benennen, die oder der dort eine beratende Stimme hat. Genau so können z.B. die studentischen Senatsmitglieder oder Fakultätsräte qua Amt Mandate in der VS bekommen.
 \end{itemize}
+
 
 
 \paragraph{Politisches Mandat}
 
-„Im Rahmen der Erfüllung ihrer Aufgaben nimmt die Studierendenschaft ein politisches Mandat wahr. Sie wahrt nach den verfassungsrechtlichen Grundsätzen die weltanschauliche, religiöse und parteipolitische Neutralität.“ (LHG § 65 (4)) Es wurde immer wieder diskutiert, ob die VS und deren Organe, Vorsitzende oder Sprecher nun ein hochschulpolitisches oder allgemeinpolitisches Mandat bekommen sollen. Diese beiden Worte tauchten im Gesetzestext dann nicht auf, aber das „politische Mandat“ das die VS im „Rahmen der Erfüllung ihrer Aufgaben“ hat kann vermutlich sehr weit ausgedehnt sein, wenn man sich die Breite und den allgemeinen Anspruch der Aufgaben anschaut, z.B. im Bezug auf die politische Bildung der Studierenden und Förderung deren Verantwortungsbewusstseins.
+Es wurde immer wieder diskutiert, ob die VS und deren Organe, Vorsitzende oder Sprecher nun ein hochschulpolitisches oder allgemeinpolitisches Mandat bekommen sollen.
+Mit einem allgemeinpolitischen Mandat wäre es der VS erlaubt sich zu jedem beliebigen Thema politisch zu positionieren, zu äußern etc.
+Im Gesetz steht nun: „Im Rahmen der Erfüllung ihrer Aufgaben nimmt die Studierendenschaft ein politisches Mandat wahr. Sie wahrt nach den verfassungsrechtlichen Grundsätzen die weltanschauliche, religiöse und parteipolitische Neutralität.“ \textit{(LHG § 65 (4))}.
+Diese diskutierten Begriffe tauchen also nicht auf, es ist stattdessen die Rede von einem „politische Mandat“, das die VS im „Rahmen der Erfüllung ihrer Aufgaben“ wahrnehmen soll. 
+
+Schaut man sich die Breite und den allgemeinen Anspruch der Aufgaben der VS an, z.B.~im Bezug auf die politische Bildung der Studierenden und Förderung deren Verantwortungsbewusstseins, kann dieses Mandat vermutlich sehr weit ausgedehnt werden. \textbf{Jedoch ist Vorsicht geboten: es muss immer ein Bezug zu Studierenden, Studium, Hoschule oder dergleichen vorhanden sein.}
+
+In der Begründung zum Gesetzesentwurf findet sich diese Einschränkung deutlicher als im Wortlaut der §§-en: „Die im Gesetz vorgesehenen Aufgaben geben der Studierendenschaft die Möglichkeit, sich umfassend für die Belange der Studierenden einzusetzen und zu hochschulpolitischen Themen Stellung zu nehmen. Die Aufgaben berücksichtigen die verfassungsrechtlichen Grenzen, die sich aus der Pflichtmitgliedschaft aller Studierenden in der Studierendenschaft ergeben, und begründen kein sogenanntes »allgemeinpolitisches Mandat«.“ \textit{(Landtag BW Drucksache 15 / 1600, Seite 24)}. Und an anderer Stelle: „[…] beinhaltet nicht die Befugnis, im Namen der Studierendenschaft eigene politische Forderungen zu formulieren und zu begründen, die über die oben genannten Belange der Studierenden hinausgehen.“ Etwas später dann: „Die Studierendenschaft erhält jedoch keine Befugnis, zu allgemeinpolitischen Themen Stellung zu nehmen, die nur am Rande mit wissenschaftlichen Erkenntnissen im Zusammenhang stehen oder die nicht die Gruppe der Studierenden betreffen.“ Die Landesregierung reitet in der Begründung geradezu auf diesem Aspekt herum, denn etwas später heißt es dann nochmal: „Der Studierendenschaft wird ein begrenztes partikuläres politisches Mandat eingeräumt, welches auf die Erfüllung der in Absatz 2 genannten Aufgaben und auf die Wahrnehmung gruppenspezifischer studentischer Belange beschränkt ist. Das Mandat rechtfertigt sich aus dem Auftrag der Studierendenschaft, sich bei hochschul- und studienspezifischen Belangen gegenüber der Hochschule und der Politik zu positionieren, Anregungen und Kritik vorzubringen und für ihre Auffassung zu werben, so, wie dies auch anderen Körperschaften des öffentlichen Rechts im Rahmen ihrer Aufgaben möglich ist. Die Regelung begründet kein allgemeinpolitisches Mandat der Studierendenschaft. Das Neutralitätsgebot in Satz 2 bedeutet keine Einschränkung des Mandats der Studierendenschaft, sondern stellt klar, dass die Studierendenschaft als öffentlich-rechtliche Körperschaft das sich aus Verfassungsrecht ergebende Gebot zur Wahrung der weltanschaulichen, religiösen und parteipolitischen Neutralität zu beachten hat. Die Studierendenschaft wird durch dieses Gebot nicht daran gehindert, sich bei Themen im Rahmen ihrer Aufgaben zu positionieren.“ \textit{(alle vorigen Zitate in Landtag BW Drucksache 15 / 1600, Seite 33 f)}.
 
 
 \paragraph{Satzung}
 
-Die Satzung sind die Regeln, die sich eine VS im Sinne der Satzungsautonomie selbst geben kann. Neben „Satzung“ und hier insbesondere „Organisationssatzung“ taucht dann auch immer der Begriff „Ordnung“ auf. An diesen Bezeichnungen lässt sich der Status der Regeln jedoch nicht festmachen: eine „Ordnung“ kann durchaus \emph{Satzungscharakter} haben, d.h. sie enthält Regelungen, die alle Mitglieder rechtlich binden, quasi wie ein Gesetz. Dies trifft in der Regel für die Ordnungen der Universität zu. Im Gegensatz dazu gibt es dann z.B. noch Richtlinien oder Vorschriften, die interne Handlungsanweisungen geben, nach außen aber nur bedingt Rechtswirksamkeit entfalten (Geschäftsordnungen, Dienstanweisungen).
+Die Satzung sind die Regeln, die sich eine VS im Sinne der Satzungsautonomie selbst geben kann. Neben „Satzung“ und hier insbesondere „Organisationssatzung“ taucht dann auch immer der Begriff „Ordnung“ auf. An diesen Bezeichnungen lässt sich der Status der Regeln jedoch nicht festmachen: eine „Ordnung“ kann durchaus \emph{Satzungscharakter} haben, d.h. sie enthält Regelungen, die alle Mitglieder rechtlich binden, quasi wie ein Gesetz. Dies trifft in der Regel für die Ordnungen der Universität zu. Im Gegensatz dazu gibt es dann z.B. noch Richtlinien oder Vorschriften, die interne Handlungsanweisungen geben, nach außen aber nur bedingt Rechtswirksamkeit entfalten (bspw.~Geschäftsordnungen, Dienstanweisungen).
 
 Eine Ordnung bzw. Satzung muss immer von einem satzungsgebenden Organ erlassen werden und dazu muss es gesetzlich ermächtigt sein. In der VS wird dieses Organ im LHG entsprechend als „legislatives Organ“ bezeichnet, dessen Rolle in Ulm das StuPa inne hat.
 
 %TODO Die \emph{Rechtsfolge} macht den Unterschied...
 
-Konkret wird im Gesetz zuerst einmal die Organisationssatzung (OS) genannt und dabei definiert, was die VS als \textbf{Grundlagen für ihre „Organisation“} festlegen muss: Definition der Organe (Zusammensetzung, Zuständigkeit), Beschlussfassung, Bekanntgabe der Beschlüsse, Wahlgrundsätze; siehe LHG § 65 a (1). In LHG § 64 a (5) wird dann z.B. auch Beitragsordnung (BO) genannt, die „als Satzung erlassen“ wird. Also zumindest die Organisationssatzung, Wahlordnung, Finanzordnung und Beitragsordnung (OS, WO, FO und BO) müssen vom StuPa beschlossen und von der \emph{Rechtsaufsicht} genehmigt werden.
+Konkret wird im Gesetz zuerst einmal die Organisationssatzung (OS) genannt und dabei definiert, was die VS als \textbf{Grundlagen für ihre „Organisation“} festlegen muss: Definition der Organe (Zusammensetzung, Zuständigkeit), Beschlussfassung, Bekanntgabe der Beschlüsse, Wahlgrundsätze \textit{(LHG § 65 a (1))}. In LHG § 65 a (5) wird dann z.B. auch Beitragsordnung (BO) genannt, die „als Satzung erlassen“ wird. Also zumindest die Organisationssatzung, Wahlordnung, Finanzordnung und Beitragsordnung (OS, WO, FO und BO) müssen vom StuPa beschlossen und von der \emph{Rechtsaufsicht} genehmigt werden.
 
 Die Verfahrensordnung der Hochschule gilt übrigens nicht für die VS.
 
 
-\paragraph{Ehrenamt}
+\paragraph{Ehrenamt}\label{Glossar: Ehrenamt}
 
-Alle Mitglieder der Organe arbeiten ehrenamtlich (LHG § 65 a (7)). Dazu entsprechender Satz 1: „Die Mitglieder in den Organen der Studierendenschaft üben ihre Tätigkeit ehrenamtlich aus. Das legislative Organ kann eine angemessene Aufwandsentschädigung festsetzen.“ Dies trifft laut Definition in § 3 der Ulmer OS auch auf die StEx zu. Die Referate sind z.B. keine Organe, da nicht aufgezählt, siehe dazu also auch Beschäftigte.
-Offene Frage: Wie passte eine „angemessene Aufwandsentschädigung“, also deren Höhe, zum geforderten Ehrenamt? In Ulm wurde in der bisherigen Diskussion eine monatliche Aufwandsentschädigung von 400 oder 600 € pro Monat veranschlagt, Umfang und Anspruch der Aufgaben sind wohl zu berücksichtigen. Aber es wurde noch keine Option gefunden, das rechtlich (Steuer, Arbeitsrecht, …) als solche den Tätigen zukommen zu lasen und kein Anstellungsverhältnis einzugehen. Unter den Stichworten Übungsleiterpauschale, Steuerfreibetrag für ehrenamtliche Aufwandsentschädigungen, … scheint es nicht möglich zu sein. Vielleicht lohnt sich hier auch ein Blick darauf wie Sitzungsgeld z.B. für Kirchengemeinderäte gehandhabt wird.
+Alle Mitglieder der Organe arbeiten laut LHG § 65 a (7) ehrenamtlich, die entsprechenden ersten beiden Sätze lauten: „Die Mitglieder in den Organen der Studierendenschaft üben ihre Tätigkeit ehrenamtlich aus. Das legislative Organ kann eine angemessene Aufwandsentschädigung festsetzen.“ Dies trifft laut der Definition in § 3 der Ulmer OS auch auf die StEx zu. Die Referentinnen hingegen sind in dieser Funktion z.B.~keine Organmitglieder, da sie nicht in OS § 3 aufgezählt sind. Siehe hierzu also auch \nameref{Glossar: Beschäftigte}.
 
-Wie dieses Ehrenamt mit dem Studium vereinbar ist sagt dann LHG § 65 a (7) Satz 3, siehe dazu \emph{nicht-Benachteiligung}.
+Wie dieses Ehrenamt mit dem Studium vereinbar ist sagt dann LHG § 65 a (7) Satz 3, siehe dazu \nameref{Glossar: nicht-Benachteiligung}.
+
+Offene Frage: Wie passte eine „angemessene Aufwandsentschädigung“, also deren Höhe, zum geforderten Ehrenamt? In Ulm wurde in der bisherigen Diskussion für die sieben Mitglieder der StudierendenExekutive eine monatliche Aufwandsentschädigung von 400 oder 600 € pro Monat veranschlagt, da sie neben der Organtätigkeit auch die konkrete Geschäftsführung inne haben und der große Umfang und Anspruch dieser Aufgaben zu berücksichtigen ist. Leider wurde noch keine Option gefunden, eine Aufwandsentschädigung in diesem Umfang rechtlich sauber (Steuer, Arbeitsrecht, …) und praktikabel zu leisten. Unter den Stichworten Übungsleiterpauschale, Steuerfreibetrag für ehrenamtliche Aufwandsentschädigungen etc.~scheint es nicht möglich zu sein. Vielleicht lohnt sich hier auch ein Blick darauf wie die Entlohnung von Bürgermeistern kleinerer Gemeinden oder das Sitzungsgeld z.B.~für Kirchengemeinderäte gehandhabt wird.
 
 
-\paragraph{Fachschaft, FachbereichsVertretung, FS}
 
-Der Begriff „Fachschaft“ ist im Gesetz als Gesamtheit aller Studierenden einer Fakultät definiert. In Ulm hat sich jedoch eine feinere Gliederung als sinnvoll erwiesen und über die Jahre bewährt. „Fachschaft“ wird umgangssprachlich für die Gruppen von aktiven Studierenden verwendet, die sich um die sinngemäß zusammengehörenden Fächer kümmern; von diesen „Fächergruppen“ gibt es mehr als zehn und nicht nur, entsprechend der Zahl der Fakultäten, vier. Um dieser Diskrepanz mit einer – zumindest rechtlich klaren – Definition Rechnung zu tragen, wurde in der OS der Begriff FachbereichSvertretung (zufälligerweise abgekürzt als „FS“) für diese umgangssprachlichen oder auch „gelebten“ Fachschaften verwendet. Die Eingruppierungen der Fächer in eine FS ist in der OS festgelegt.
+\paragraph{Fachschaft, FachbereichsVertretung, FS}\label{Glossar: Fachschaft, Fachbereichsvertretung, FS}
 
-\textbf{\emph{Achtung!}} Da es nun leider diese begriffliche Diskrepanz gibt muss man v.a. wenn es um Offizielles geht auf eine korrekte Verwendung geachtet werden! Also z.B. in Protokollen der FSen muss immer der richtige Begriff FachbereichSvertretung genannt werden.
+Der Begriff „Fachschaft“ ist per Gesetz als Gesamtheit aller Studierenden einer Fakultät definiert, es gibt an der Uni Ulm also offiziell nur 4(!) Fachschaften.
+Diese grobe Aufteilung hat sich in Ulm aber schon lange als nicht passend erwiesen (Subsidiaritätsprinzip) und gelebt wird deshalb eine Organisation in mehr als 10 „Fachschaften“ (umgangssprachlich), die sich um die Studierenden in sinngemäß zusammengehörenden Fächern kümmern.
+Dementsprechend legt die OS die sogenannten „Fachbereichsvertretung“, abgekürzt FSen, fest und ordnet ihnen bestimmte Fächer bzw. deren Studierende zu.
+
+Dass eine solche feingliedrigere Aufteilung angemessen sein kann findet auch der Gesetzgeber in der Gesetzesbegründung \textit{(Landtag BW Drucksache 15 / 1600, Seite 36)}.
+Teilweise problematisch ist, aber dass die Studierenden vor Ort seit jeher der Begriff „Fachschaft“ für die genannten kleineren Organisationseinheiten verwenden, die legale Definition aber eine andere ist.
+
+\textbf{\emph{Achtung!}} Da es nun leider diese begriffliche Diskrepanz gibt muss man v.a. wenn es um Offizielles geht auf einen korrekten Gebrauch geachtet werden! Beispielsweise \textbf{muss in den Protokollen der FSen immer der richtige Begriff Fachbereichsvertretung verwendet werden}.
+
+Siehe hierzu auch \nameref{Glossar: Wahlen}: das Verbot der Bildung von Wahlkreisen (entsprechend allen Studierenden einer Fachbereichsvertretung) und der Wahl in Vollversammlungen trifft auf die Ulmer Fachbereichsvertretungen vermutlich nicht zu, sofern es sich um Wahlen bezüglich der Angelegenheiten der Fachbereichsvertretungen handelt.
+
+
 
 
 \paragraph{Schlichtungskommission}
 
-Muss existieren, um einzelnen Studierenden zu ermöglichen sich über die Überschreitung der definierten Aufgaben der Studierendenschaft zu beschweren (LHG § 65 a (9)).
+Muss existieren, um einzelnen Studierenden zu ermöglichen sich über die Überschreitung der definierten Aufgaben der Studierendenschaft zu beschweren \textit{(LHG § 65 a (9))}; soll vor dem Gang vor ein Gericht angerufen werden, der „Rechtsweg“ wird durch anrufen der Schlichtungskommission jedoch nicht direkt berührt, z.B.~ was Fristen angeht.
+
 
 
 \paragraph{Finanzen, Haushalt, Wirtschaftsführung\label{Glossar:Finanzen, Haushalt, Wirtschaftsführung}}
@@ -457,42 +486,53 @@ Fast der ganze § 65 b des LHG dreht sich um das liebe Geld und dessen Verwaltun
 	\item Um mit dem Geld arbeiten zu können und eine Maßgabe für die Ausgaben sowie Grundlage bzgl. der Rechenschaft zu haben muss ein Wirtschafts- oder Haushaltsplan geführt werden. Welche Form es sein soll, muss festgeschrieben oder entschieden werden.
 \end{itemize}
 
-Folgende Posten sind für die Finanzverwaltung und -aufsicht vorgesehen:
+Folgende Akteure und Maßnahmen sind für die Finanzverwaltung und -aufsicht vorgesehen:
 \begin{itemize}
-	\item \textbf{Beauftragter für den Haushalt} (auch Hauptamtlicher Finanzer): „Befähigung für den gehobenen Verwaltungsdienst hat oder in vergleichbarer Weise über nachgewiesene Fachkenntnisse im Haushaltsrecht verfügt.“; unmittelbar dem Vorsitzenden unterstellt. Mehr dazu in LHG im entsprechende § 65 b (2).
-	\item \textbf{Finanzreferent der Studierendenschaft}: arbeitet mit dem Beauftragten für den Haushalt zusammen. 
+	\item \textbf{Finanzreferent der Studierendenschaft}: für die Wirtschaftsverwaltung der Studierendenschaft hauptsächlich verantwortlich; „arbeitet mit dem Beauftragten für den Haushalt zusammen“ \textit{(LHG § 65 b (2))}.
+	\item \textbf{Beauftragter für den Haushalt} (auch hauptamtlicher Finanzer): „Befähigung für den gehobenen Verwaltungsdienst hat oder in vergleichbarer Weise über nachgewiesene Fachkenntnisse im Haushaltsrecht verfügt.“; unmittelbar dem Vorsitzenden unterstellt; kann Studierender oder im Hauptberuf im Dienst der Uni sein. Mehr dazu in LHG im entsprechenden § 65 b (2). Der Gesetzesentwurf erläutert außerdem: „Der Beauftragte für den Haushalt kann entsprechend [LHG] § 16 Absatz 2 Satz 5 \textbf{einer Maßnahme widersprechen}, wenn er sie für rechtswidrig oder mit den Grundsätzen der Wirtschaftlichkeit nicht für vertretbar hält. In diesem Fall ist vom Vorsitzenden des exekutiven Organs der Studierendenschaft eine Entscheidung des legislativen Organs herbeizuführen, welches abschließend über den Vollzug der Maßnahme entscheidet.“ \textit{(Landtag BW Drucksache 15 / 1600, Seite 38f)}.
 	\item \textbf{Rechnungsprüfung}: durch eine Fachkundige Person mit der Befähigung für den gehobenen Verwaltungsdienst (ungleich des Beauftragten für den Haushalt) oder durch die Verwaltung der Hochschule (wenn diese das möchte).
+	\item \textbf{Landesrechnungshof}: hat die „Haushalts- und Wirtschaftsführung der Studierendenschaft“ \textit{(LHG § 65 b (3))} zu prüfen, neben der o.g.~Rechnungsprüfung.
 \end{itemize}
 
 Sonst noch:
 \begin{itemize}
 	\item Der Vorstand der Hochschule entlastet.
-	\item (4): „Für Verbindlichkeiten haftet die Studierendenschaft mit ihrem Vermögen. Die Hochschule und das Land haften nicht für Verbindlichkeiten der Studierendenschaft.“
+	\item LHG § 65 b (4): „Für Verbindlichkeiten haftet die Studierendenschaft mit ihrem Vermögen. Die Hochschule und das Land haften nicht für Verbindlichkeiten der Studierendenschaft.“
 	\item Darlehen dürfen nicht Aufgenommen oder Vergeben werden; Beteiligung an oder Gründung von Unternehmen ist nur mit Zustimmung des Vorstands der Hochschule möglich. Siehe (7).
 \end{itemize}
 
-Bei diesem Thema lohnt es sich sicher noch einiges an Expertise – z.B. von Steuerberatern und dem Finanzamt – einzuholen.
+Bei diesem Thema lohnt es sich sicher noch einiges an Expertise – z.B. von Steuerberatern oder dem Finanzamt – einzuholen.
 
 
-\paragraph{Beschäftigte}
 
-… der Studierendenschaft unterliegen einer Bindung an den selben Tarif wie die Beschäftigten der Hochschule (LHG § 65 b (1)). D.h. der „Tarifvertrag für den öffentlichen Dienst der Länder“ (TV-L) ist anzuwenden, einschließlich seiner Regelungen zur Eingruppierung.
+\paragraph{Beschäftigte}\label{Glossar: Beschäftigte}
 
-Ab einer gewissen Anzahl von Beschäftigten haben diese selbstverständlich auch das Recht sich gewerkschaftlich zu organisieren und z.B. einen Personalrat zu gründen. Das ist aber der Erfahrung an anderen Hochschulen nach nicht besonders problematisch. Der Personalrat der Hochschule ist übrigens nicht zuständig.
+… der Studierendenschaft unterliegen einer Bindung an den selben Tarif wie die Beschäftigten der Hochschule \textit{(LHG § 65 b (1))}. D.h. der „Tarifvertrag für den öffentlichen Dienst der Länder“ (TV-L) ist anzuwenden, einschließlich seiner Regelungen zur Eingruppierung.
 
-Siehe auch \emph{Ehrenamt}.
+Ab einer gewissen Anzahl von Beschäftigten haben diese selbstverständlich auch das Recht sich gewerkschaftlich zu organisieren und z.B. einen Personalrat zu gründen. Das ist aber der Erfahrung an anderen Hochschulen nach nicht besonders problematisch. Der Personalrat der Hochschule ist nicht zuständig.
+
+Siehe auch \nameref{Glossar: Ehrenamt}.
 
 
 \paragraph{Rechtsaufsicht}
 
-… über die Studierendenschaft hat der Vorstand der Hochschule. U.a. heißt das ganz konkret, dass Satzungen und Haushaltsplan genehmigt werden müssen; nicht-Genehmigung aber nur bei Rechtswidrigkeit (LHG § 65 b (6)). Also sollte man bei diesen Angelegenheiten auch genügend Zeit für die rechtliche Prüfung durch die Hochschule einplanen und sich am besten möglichst früh mit der Rechtsabteilung abstimmen.
+… über die Studierendenschaft hat das Rektorat Hochschule. U.a. heißt das ganz konkret, dass Satzungen und Haushaltsplan genehmigt werden müssen, nicht-Genehmigung aber nur bei Rechtswidrigkeit \textit{(LHG § 65 b (6))}. Also sollte man bei diesen Angelegenheiten auch genügend Zeit für die rechtliche Prüfung durch die Hochschule einplanen und sich am besten möglichst früh mit der Rechtsabteilung abstimmen.
 
-Die Rechtsaufsicht geht aber auch weiter (LHG §§ 67 (1) und 68 (1), (3) und (4)). Die Universität \emph{kann} Berichte und Auskünfte verlangen, wenn diese dem Zweck dienen, ein Handeln auf seine Rechtmäßigkeit zu überprüfen. Sie \emph{kann} rechtswidrige Beschlüsse beanstanden und im Extremfall sogar Anordnungen und Maßnahmen an Stelle der VS treffen.
+Die Rechtsaufsicht geht aber auch weiter \textit{(LHG §§ 67 (1) und 68 (1), (3) und (4))}. Die Universität \emph{kann} Berichte und Auskünfte verlangen, wenn diese dem Zweck dienen, ein Handeln auf seine Rechtmäßigkeit zu überprüfen. Sie \emph{kann} rechtswidrige Beschlüsse beanstanden und im Extremfall sogar Anordnungen und Maßnahmen an Stelle der VS treffen. Im Konfliktfall kann das Wissenschaftsministerium eingeschaltet werden \textit{(Landtag BW Drucksache 15 / 1600, Seite 39f)}.
+
 
 
 \paragraph{Allgemeiner Studierendenausschuss (AStA)}
 
 Im Allgemeinen, d.h. in den meisten deutschen Bundesländern, wird das exekutive und gleichzeitig meist auch repräsentative Organ der Studierendenschaft als AStA bezeichnet. Die Ulmer StEx ist mit dem AStA gleichzusetzen. Dieser alternative Begriff wurde gebildet, um den exekutiven/operativen Aspekt dieses Organs deutlicher zu betonen und gleichzeitig vom Konzept des „alten AStA“ Abstand zu nehmen, das in Baden-Württemberg über 30 Jahre lang nur eine stark beschnittene offizielle studentische Selbstvertretung erlaubte.
+
+
+
+\paragraph{Zwangsmitgliedschaft}
+Der Gesetzgeber fasst im Gesetzesentwurf die Abwägung wie folgt zusammen: „Im Vorfeld wurde diskutiert, ob ein Recht zum Austritt aus der Verfassten Studierendenschaft vorgesehen werden sollte. Dafür spricht die Gewährleistung größerer Wahlfreiheit der Studierenden. Andererseits ist zu berücksichtigen, dass eine Verfasste Studierendenschaft ihre umfangreichen Aufgaben nur bewältigen kann, wenn sie über ausreichende finanzielle Mittel verfügt, die von allen Studierenden geleistet werden.
+
+Letztlich entscheidet sich das Gesetz gegen ein Austrittsrecht, weil es für die Verfasste Studierendenschaft essentiell ist, für sich in Anspruch nehmen zu können, die Studierenden einer Hochschule insgesamt zu vertreten und unterschiedliche
+Meinungsströmungen zu repräsentieren.“ \textit{(Landtag BW Drucksache 15 / 1600, Seite 3)}.
 
 
 
@@ -514,7 +554,7 @@ nach Maßgabe dieses Gesetzes eingerichtet. Die Verfasste Studierendenschaft (St
 
 \subsection{Artikel 3 – Gesetz über die Errichtung der Verfassten Studierendenschaft}
 
-§ 1 – Organisationssatzung, Abstimmung; Konstituierung im Regelfall
+\subsubsection*{§ 1 – Organisationssatzung, Abstimmung; Konstituierung im Regelfall}
 
 (1) Die Organisationssatzung nach § 65 a Absatz 1 Satz 1 des Landeshochschulgesetzes (LHG) in der Fassung des Artikels 2 dieses Gesetzes ist in einer Abstimmung der immatrikulierten Studierenden (Studierende) zu beschließen. Die Abstimmung wird vom Vorstand der Hochschule durchgeführt. Studierende der Hochschule können ausgearbeitete und mit einer Erläuterung versehene Satzungsvorschläge beim Vorstand der Hochschule bis zu einem vom Vorstand festgelegten und veröffentlichten Termin einreichen. Die Satzungsvorschläge müssen dem geltenden Recht entsprechen und von einem Prozent der Studierenden, mindestens jedoch 30 und höchstens 150 Studierenden, unterzeichnet sein; § 3 Absatz 1 Satz 3 gilt entsprechend. Der Vorstand stellt fest, ob diese Voraussetzungen gegeben sind; dabei erläutert und erörtert er das Ergebnis der rechtlichen Prüfung mit drei Studierenden, die vom Senat auf Vorschlag der studentischen Senatsmitglieder bestimmt werden. Bei rechtlichen Mängeln gibt der Vorstand der Hochschule die Satzungsvorschläge zur Überarbeitung innerhalb einer festzulegenden Frist zurück. Sofern die Voraussetzungen nach Satz 4 gegeben sind, stellt der Vorstand die Satzungsvorschläge gemeinsam zur Abstimmung. Er legt den Termin für die Abstimmung fest und macht ihn öffentlich bekannt.
 
@@ -529,7 +569,7 @@ nach Maßgabe dieses Gesetzes eingerichtet. Die Verfasste Studierendenschaft (St
 (6) Wird die Gliedkörperschaft nicht bis spätestens 31. Dezember 2013 konstituiert, finden die §§ 2 und 3 Anwendung. Auch bei einer Konstituierung im besonderen Fall nach den §§ 2 und 3 können Studierende der Hochschule nach dem 31. Dezember 2013 jederzeit ausgearbeitete und mit einer Erläuterung versehene Organisationssatzungsvorschläge beim Vorstand der Hochschule einreichen. Absatz 1 bis 5 gilt entsprechend. Der Vorstand der Hochschule ist verpflichtet, mindestens einmal jährlich eine Abstimmung über die eingereichten Satzungsvorschläge durchzuführen.
 
 
-§ 2 – Konstituierung im besonderen Fall; Wahlen
+\subsubsection*{§ 2 – Konstituierung im besonderen Fall; Wahlen}
 
 (1) Der Vorstand der Hochschule führt unverzüglich unmittelbare, freie, gleiche, allgemeine und geheime Wahlen zum Studierendenparlament durch und stellt das Ergebnis der Wahl fest. Die Studierenden der Hochschule haben das aktive und passive Wahlrecht. Die Vertreter des Studierendenparlaments werden auf Grund von Listen in Verhältniswahl mit Bindung an die vorgeschlagenen Bewerber für ein Jahr gewählt; die Liste kann auch nur einen Bewerber aufweisen. Jeder Wähler hat so viele Stimmen, wie Mitglieder zu wählen sind; er kann einem Bewerber nur eine Stimme geben. Die Verteilung der Sitze auf die Listen erfolgt nach dem d’Hondtschen Höchstzahlverfahren entsprechend der insgesamt auf die jeweiligen Listen entfallenden Stimmen. Innerhalb der einzelnen Listen sind jeweils die Bewerber beziehungsweise Bewerberinnen mit der höchsten Stimmenzahl gewählt; bei Stimmengleichheit entscheidet das Los. Verliert ein gewähltes Mitglied die Wählbarkeit, legt sein Amt nieder oder scheidet aus einem sonstigen Grund aus, tritt an seine Stelle für den Rest der Amtszeit der Bewerber derselben Liste mit der höchsten Stimmenzahl, der keinen Sitz erhalten hat; ist die Liste erschöpft, tritt an seine Stelle der Bewerber mit der höchsten Stimmenzahl unabhängig von der Listenzugehörigkeit. Die studentischen Senatsmitglieder gehören dem Studierendenparlament als stimmberechtigte Amtsmitglieder an.
 
@@ -538,7 +578,7 @@ nach Maßgabe dieses Gesetzes eingerichtet. Die Verfasste Studierendenschaft (St
 (3) Das Studierendenparlament beschließt eine Wahlordnung für die zukünftigen Wahlen zu den Vertretern des Studierendenparlaments. Die Wahlordnung soll eine Wahl nach Listen, eine Wahlperiode von einem Jahr und die gleichzeitige Wahl mit den studentischen Senatsmitgliedern vorsehen.
 
 
-§ 3 – Konstituierung im besonderen Fall; Organe
+\subsection*{§ 3 – Konstituierung im besonderen Fall; Organe}
 
 (1) Organe der Studierendenschaft sind das Studierendenparlament und der Allgemeine Studierendenausschuss. Einschließlich der studentischen Senatsmitglieder hat an Hochschulen mit bis zu 2000 Studierenden das Studierendenparlament zehn Mitglieder und der Allgemeine Studierendenausschuss drei Mitglieder, an Hochschulen mit bis zu 10 000 Studierenden hat das Studierendenparlament 20 Mitglieder und der Allgemeine Studierendenausschuss sieben Mitglieder und an Hochschulen mit mehr als 10 000 Studierenden hat das Studierendenparlament 30 Mitglieder und der Allgemeine Studierendenausschuss zehn Mitglieder. Für die Anzahl der Studierenden einer Hochschule ist der Stichtag 31. Dezember 2011 maßgeblich.
 
@@ -552,12 +592,12 @@ Studierendenparlaments betragen.
 (5) Die Studierenden einer Fakultät bilden die Fachschaft. An den Fakultäten wird eine Fachschaftsvertretung als studentischer Ausschuss des Fakultätsrats gebildet, die aus sechs Mitgliedern besteht. Die jeweiligen studentischen Fakultätsratsmitglieder gehören der Fachschaftsvertretung als Amtsmitglieder an; die Wahl der weiteren Mitglieder regelt die Grundordnung der Hochschule. Die mit den meisten Stimmen gewählten studentischen Mitglieder sind Sprecher und stellvertretende Sprecher dieses Ausschusses. Die Fachschaftsvertretung nimmt die fakultätsbezogenen Studienangelegenheiten der Studierenden sowie die Aufgaben im Sinne des § 65 Absatz 2 LHG in der Fassung des Artikels 2 dieses Gesetzes auf Fakultätsebene wahr.
 
 
-§ 4 – Landesweite Vertretung der Studierendenschaft
+\subsubsection*{§ 4 – Landesweite Vertretung der Studierendenschaft}
 
 Nach Konstituierung aller Studierendenschaften des Landes Baden-Württemberg beruft der Vorsitzende des exekutiven Organs der Studierendenschaft der Hochschule mit der landesweit höchsten Zahl der immatrikulierten Studierenden die Vertreter der Studierendenschaften aller Hochschulen zur konstituierenden Sitzung ein; § 3 Absatz 1 Satz 3 gilt entsprechend. In der konstituierenden Sitzung beschließt die landesweite Vertretung der Studierendenschaft eine Geschäftsordnung nach § 65 a Absatz 8 Satz 2 LHG in der konstituierenden Sitzung beschließt die landesweite Vertretung der Studierendenschaft eine Geschäftsordnung nach § 65 a Absatz 8 Satz 2 LHG in der Fassung des Artikels 2 dieses Gesetzes.
 
 
-§ 5 – Fachhochschulen für den öffentlichen Dienst
+\subsubsection*{§ 5 – Fachhochschulen für den öffentlichen Dienst}
 
 Für die Fachhochschulen nach § 69 LHG finden § 25 Absatz 4 und § 65 LHG in der vor Inkrafttreten dieses Gesetzes geltenden Fassung weiterhin Anwendung; §§ 65, 65 a und 65 b LHG in der Fassung des Artikels 2 dieses Gesetzes sowie §§ 1 bis 4 dieses Artikels finden keine Anwendung. Die studentische Mitbestimmung kann durch Rechtsverordnung abweichend geregelt werden.
 
@@ -579,6 +619,9 @@ Für die Fachhochschulen nach § 69 LHG finden § 25 Absatz 4 und § 65 LHG in d
 (5) Die Hochschulen passen ihre Prüfungsordnungen bis zum 31. März 2013 an § 36 a Absatz 1 und 2 LHG in der Fassung des Artikels 2 dieses Gesetzes an.
 
 (6) § 6 Absatz 4 Satz 5 HZG in der Fassung des Artikels 9 dieses Gesetzes und § 20 Absatz 6 HVVO in der Fassung des Artikels 10 dieses Gesetzes finden erstmals zum Sommersemester 2013 Anwendung. Frühjahrssemester gelten als Sommersemester.
+
+
+
 
 \newpage
 \section{LandesHochschulGesetz: §§ zur Studierendenschaft}
@@ -643,13 +686,13 @@ Für die Fachhochschulen nach § 69 LHG finden § 25 Absatz 4 und § 65 LHG in d
 
 
 %filler
-\newpage
-\thispagestyle{empty}
-\null
-\vfill
-\begin{center}
-	\textit{StuVe, uulm, 2013}
-\end{center}
+%\newpage
+%\thispagestyle{empty}
+%\null
+%\vfill
+%\begin{center}
+%	\textit{StuVe, uulm, 2013}
+%\end{center}
+
 
 \end{document}
-
